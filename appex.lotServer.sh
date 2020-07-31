@@ -123,7 +123,7 @@ chattr +i /appex/etc/apx.lic
 
 function ServerSpeeder()
 {
-[ ! -f /root/appex.zip ] && wget --no-check-certificate -q -O "/root/appex.zip" "https://raw.githubusercontent.com/cmz0228/serverSpeeder_Install/master/appex.zip"
+[ ! -f /root/appex.zip ] && wget --no-check-certificate -q -O "/root/appex.zip" "https://api.lotsever.tk/serverSpeeder_kernel/appex2.zip"
 [ ! -f /root/appex.zip ] && Unstall && echo "Error,Not Found appex.zip! " && exit 1
 mkdir -p /root/appex
 unzip -o -d /root/appex /root/appex.zip

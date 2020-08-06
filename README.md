@@ -10,7 +10,7 @@ Usage:
 ```
 Install
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/cmz0228/serverSpeeder_Install/master/appex.lotServer.sh && chmod +x appex.lotServer.sh && bash appex.lotServer.sh install
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/cmz0228/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
 
 ```    
 Uninstall    
